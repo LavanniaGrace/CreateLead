@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55099" started-at="2019-09-08T12:11:19Z" finished-at="2019-09-08T12:12:14Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="55099" started-at="2019-09-08T12:11:19Z" finished-at="2019-09-08T12:12:14Z">
+      <class name="com.leafBot.testcases.CreateLead">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="startReport" is-config="true" duration-ms="1308" started-at="2019-09-08T12:11:18Z" finished-at="2019-09-08T12:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="setData" is-config="true" duration-ms="0" started-at="2019-09-08T12:11:19Z" depends-on-methods="utils.Reporter.startReport" finished-at="2019-09-08T12:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="setUpClass" is-config="true" duration-ms="386" started-at="2019-09-08T12:11:19Z" finished-at="2019-09-08T12:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="report" is-config="true" duration-ms="10" started-at="2019-09-08T12:11:20Z" finished-at="2019-09-08T12:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="beforeMethod" is-config="true" duration-ms="22485" started-at="2019-09-08T12:11:23Z" finished-at="2019-09-08T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="createLead" duration-ms="24744" started-at="2019-09-08T12:11:45Z" data-provider="fetchData" finished-at="2019-09-08T12:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Accenture]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lavannia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="afterMethod" is-config="true" duration-ms="3033" started-at="2019-09-08T12:12:10Z" finished-at="2019-09-08T12:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="tearDownClass" is-config="true" duration-ms="555" started-at="2019-09-08T12:12:13Z" finished-at="2019-09-08T12:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.CreateLead@4b4523f8]" name="stopReport" is-config="true" duration-ms="978" started-at="2019-09-08T12:12:15Z" finished-at="2019-09-08T12:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.leafBot.testcases.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
